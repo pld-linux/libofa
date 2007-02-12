@@ -1,5 +1,5 @@
 Summary:	Open Fingerprint Architecture - identyfying a piece of music with just sound
-Summary(pl):	Open Fingerprint Architecture - identyfikowanie muzyki po samym dºwiÍku
+Summary(pl.UTF-8):   Open Fingerprint Architecture - identyfikowanie muzyki po samym d≈∫wiƒôku
 Name:		libofa
 Version:	0.9.3
 Release:	2
@@ -21,14 +21,14 @@ MusicDNS and the Open Fingerprint Architecture provide a system for
 identifying a piece of music with nothing more than the sound of the
 piece itself.
 
-%description -l pl
-MusicDNS i Open Fingerprint Architecture dostarczaj± system do
-identyfikowania utworÛw muzycznych bez dodatkowych informacji, na
-podstawie samego dºwiÍku.
+%description -l pl.UTF-8
+MusicDNS i Open Fingerprint Architecture dostarczajƒÖ system do
+identyfikowania utwor√≥w muzycznych bez dodatkowych informacji, na
+podstawie samego d≈∫wiƒôku.
 
 %package devel
 Summary:	Header files for libofa library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki libofa
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki libofa
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	fftw3-devel >= 3.0
@@ -37,19 +37,19 @@ Requires:	libstdc++-devel
 %description devel
 Header files for libofa library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki libofa.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki libofa.
 
 %package static
 Summary:	Static libofa library
-Summary(pl):	Statyczna biblioteka libofa
+Summary(pl.UTF-8):   Statyczna biblioteka libofa
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libofa library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka libofa.
 
 %prep
