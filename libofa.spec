@@ -1,5 +1,5 @@
 Summary:	Open Fingerprint Architecture - identyfying a piece of music with just sound
-Summary(pl.UTF-8):   Open Fingerprint Architecture - identyfikowanie muzyki po samym dźwięku
+Summary(pl.UTF-8):	Open Fingerprint Architecture - identyfikowanie muzyki po samym dźwięku
 Name:		libofa
 Version:	0.9.3
 Release:	2
@@ -28,7 +28,7 @@ podstawie samego dźwięku.
 
 %package devel
 Summary:	Header files for libofa library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki libofa
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libofa
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	fftw3-devel >= 3.0
@@ -42,7 +42,7 @@ Pliki nagłówkowe biblioteki libofa.
 
 %package static
 Summary:	Static libofa library
-Summary(pl.UTF-8):   Statyczna biblioteka libofa
+Summary(pl.UTF-8):	Statyczna biblioteka libofa
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
