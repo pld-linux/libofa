@@ -2,7 +2,7 @@ Summary:	Open Fingerprint Architecture - identyfying a piece of music with just 
 Summary(pl.UTF-8):	Open Fingerprint Architecture - identyfikowanie muzyki po samym dźwięku
 Name:		libofa
 Version:	0.9.3
-Release:	2
+Release:	3
 License:	GPL v2 or Adaptive Public License
 Group:		Libraries
 Source0:	http://www.musicdns.org/themes/musicdns_org/downloads/%{name}-%{version}.tar.gz
