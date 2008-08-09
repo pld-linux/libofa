@@ -5,7 +5,7 @@ Version:	0.9.3
 Release:	3
 License:	GPL v2 or Adaptive Public License
 Group:		Libraries
-Source0:	http://www.musicdns.org/themes/musicdns_org/downloads/%{name}-%{version}.tar.gz
+Source0:	http://musicip-libofa.googlecode.com/files/libofa-%{version}.tar.gz
 # Source0-md5:	51507d2c4b432bd2755f48d58471696e
 Patch0:		%{name}-link.patch
 Patch1:		%{name}-c++.patch
