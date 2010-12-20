@@ -9,7 +9,7 @@ Source0:	http://musicip-libofa.googlecode.com/files/libofa-%{version}.tar.gz
 # Source0-md5:	51507d2c4b432bd2755f48d58471696e
 Patch0:		%{name}-link.patch
 Patch1:		%{name}-c++.patch
-URL:		http://www.musicdns.org/
+URL:		http://code.google.com/p/musicip-libofa/
 BuildRequires:	curl-devel
 BuildRequires:	expat-devel >= 1.95
 BuildRequires:	fftw3-devel >= 3.0
