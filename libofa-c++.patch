@@ -9,3 +9,62 @@
  	else
  	{
  		Real c = b/a;
+--- libofa-0.9.3/lib/signal_op.cpp~	2006-05-10 20:01:12.000000000 +0200
++++ libofa-0.9.3/lib/signal_op.cpp	2013-12-07 17:08:10.642704315 +0100
+@@ -13,6 +13,7 @@
+ 
+ 
+ #include <math.h>
++#include <cstdlib>
+ #include "signal_op.h"
+ #include "AFLIB/aflibConverter.h"
+ #include "error_op.h"
+diff -ur libofa-0.9.3/examples/example.cpp libofa-0.9.3-c++/examples/example.cpp
+--- libofa-0.9.3/examples/example.cpp	2006-05-10 20:05:37.000000000 +0200
++++ libofa-0.9.3-c++/examples/example.cpp	2013-12-07 17:11:08.776036358 +0100
+@@ -7,6 +7,9 @@
+ 
+ -------------------------------------------------------------------*/
+ 
++#include <stdio.h>
++#include <cstdlib>
++#include <cstring>
+ #include "protocol.h"
+ 
+ AudioData* loadWaveFile(char *file);
+diff -ur libofa-0.9.3/examples/protocol.cpp libofa-0.9.3-c++/examples/protocol.cpp
+--- libofa-0.9.3/examples/protocol.cpp	2006-05-10 20:05:42.000000000 +0200
++++ libofa-0.9.3-c++/examples/protocol.cpp	2013-12-07 17:10:11.666036772 +0100
+@@ -7,8 +7,8 @@
+ 
+ -------------------------------------------------------------------*/
+ #include <stdio.h>
+-#include <stdlib.h>
+-#include <string>
++#include <cstdlib>
++#include <cstring>
+ #include <map>
+ #include <expat.h>
+ #include <curl/curl.h>
+diff -ur libofa-0.9.3/examples/uselame.cpp libofa-0.9.3-c++/examples/uselame.cpp
+--- libofa-0.9.3/examples/uselame.cpp	2006-05-10 20:05:51.000000000 +0200
++++ libofa-0.9.3-c++/examples/uselame.cpp	2013-12-07 17:11:25.909369568 +0100
+@@ -10,6 +10,7 @@
+ #ifdef WIN32
+ #include "windows.h"
+ #else
++#include <unistd.h>
+ #include <sys/wait.h>
+ #endif
+ 
+diff -ur libofa-0.9.3/examples/wavefile.cpp libofa-0.9.3-c++/examples/wavefile.cpp
+--- libofa-0.9.3/examples/wavefile.cpp	2006-05-10 20:05:56.000000000 +0200
++++ libofa-0.9.3-c++/examples/wavefile.cpp	2013-12-07 17:12:09.426035919 +0100
+@@ -10,6 +10,7 @@
+ #ifdef WIN32
+ #include "io.h"
+ #endif
++#include <unistd.h>
+ #include <fcntl.h>
+ 
+ static bool readBytes(int fd, unsigned char *buf, int size) {
